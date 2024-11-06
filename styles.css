@@ -166,3 +166,10 @@ section h2 {
     background-color: #0056b3;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Disable horizontal overflow */
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+    background-color: #121212; /* Ensure no white background shows through */
+}
