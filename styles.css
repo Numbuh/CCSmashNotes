@@ -165,16 +165,4 @@ section h2 {
 .back-button:hover {
     background-color: #0056b3;
 }
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    height: 100%;
-    background-color: #121212; /* Ensures no white background peeks through */
-}
-#hero, #recent-matches, #frame-data, #notes-section {
-    min-height: 100vh;
-    box-sizing: border-box;
-}
 
